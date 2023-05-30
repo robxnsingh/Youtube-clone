@@ -1,0 +1,178 @@
+p {
+    font-family: Roboto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.video-title {
+
+    font-size: 18px;
+    font-weight: bold;
+    width: 300px;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+
+.view-count {
+
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+
+    margin-bottom: 20px;
+}
+
+.video-author {
+
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+
+    margin-bottom: 20px;
+
+
+}
+
+.video-desc {
+
+    font-size: 14px;
+    width: 280px;
+    color: rgb(96, 96, 96);
+    line-height: 22px;
+    margin-bottom: 100px;
+}
+
+.apple-text {
+    margin-bottom: 50px;
+    font-size: 14px;
+    background-color: rgb(227, 65, 64);
+    color: white;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+
+}
+
+.span1 {
+    cursor: pointer;
+}
+
+.span1:hover {
+    text-decoration: underline;
+}
+
+.html-course {
+    font-family: verdana;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.subtitle {
+    font-family: Verdana;
+    font-size: 16px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 16px;
+
+
+}
+
+.description {
+    font-family: Verdana;
+    font-size: 15px;
+    width: 280px;
+    margin-bottom: 16px;
+}
+
+.get-started {
+    background-color: rgb(35, 121, 11);
+    color: white;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.new {
+    font-family: Arial;
+    width: 400px;
+    font-size: 12px;
+    color: rgb(223, 145, 0);
+    font-weight: bold;
+    margin-bottom: 6px;
+    text-align: center;
+}
+
+.macbook {
+    font-family: Arial;
+    width: 400px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.supercharged {
+    font-family: Arial;
+    width: 400px;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 6px;
+    text-align: center;
+    color: rgb(40, 35, 35);
+}
+
+.price {
+    font-family: Arial;
+    width: 400px;
+    font-size: 32px;
+    font-size: 14px;
+    margin-bottom: 6px;
+    text-align: center;
+    color: rgb(83, 83, 83);
+    margin-bottom: 10px;
+}
+
+.buy-button {
+    font-family: Arial;
+
+    font-size: 16px;
+    background-color: rgba(49, 121, 253, 0.988);
+    color: white;
+    border: none;
+    font-size: 14px;
+    border-radius: 14px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-left: 175px;
+    cursor: pointer;
+}
+
+.fcc {
+    margin-bottom: 8px;
+}
+
+.fcc1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.fcc2 {
+    font-size: 20px;
+    color: rgb(90, 90, 90);
+
+}
+
+.fcc-subtitle {
+    width: 550px;
+    font-size: 18px;
+    margin-bottom: 14px;
+
+}
+
+.fcc-conc1 {
+    color: rgb(103, 136, 228);
+}

@@ -1,0 +1,111 @@
+<button class="back-button">Back</button>
+<a class="search-result" href="https://www.w3schools.com/html/html_intro.asp" target="_blank">1</a>
+<a class="search-result" href="https://www.w3schools.com/html/html_editors.asp" target="b">2</a>
+<a class="search-result" href="https://www.w3schools.com/html/html_basic.asp" target="_blank">3</a>
+<a class="search-result" href="https://www.w3schools.com/html/html_elements.asp" target="_blank">4</a>
+<button class="next-button">Next</button>
+<style>
+    .Back-button {
+        margin-right: 8px;
+        padding-top: 8px;
+        font-size: 16px;
+        padding-bottom: 8px;
+
+    }
+
+    .next-button {
+        margin-left: 8px;
+        padding-top: 8px;
+        font-size: 16px;
+        padding-bottom: 8px
+    }
+
+    .search-result {
+        margin-left: 4px;
+        margin-right: 4px;
+        font-size: 18px;
+    }
+</style>
+<br><br>
+
+<button class="stretch">Stretch</button> <br><br>
+<button class="threedclick">Shadow</button> <br><br>
+<button class="stretch-button">One</button>
+<button class="stretch-button">Two</button>
+<button class="stretch-button"> Three</button>
+
+<style>
+    .stretch {
+        background-color: green;
+        color: white;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        border: none;
+        transition:
+            padding-top 1s,
+            padding-bottom 1s,
+            padding-left 1s,
+            padding-right 1s;
+
+    }
+
+    .stretch:hover {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        cursor: pointer;
+    }
+
+    .threedclick {
+        background-color: green;
+        color: white;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        border: none;
+        cursor: pointer;
+        box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.3);
+    }
+
+
+
+    .threedclick:active {
+
+        margin-top: 3px;
+        margin-left: 3px;
+        box-shadow: none;
+    }
+
+    .stretch-button {
+
+        background-color: green;
+        color: white;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        border: none;
+        cursor: pointer;
+        font-size: 18px;
+        
+
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+
+        transition: padding 0.15s, margin 0.15s ;
+    }
+    .stretch-button:hover{
+        padding-left: 25px;
+        padding-right: 25px;
+        margin-right: 0px;
+        margin-left: 0px;
+        
+    }
+
+</style>

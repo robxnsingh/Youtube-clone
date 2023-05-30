@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <style>
+            .header{
+                display: flex;
+                flex-direction: row;
+                
+                justify-content: space-between;
+                align-items: center;
+                border-bottom-color: rgb(220, 220, 220);
+                border-bottom-width: 1px;
+                border-bottom-style: solid;
+            }
+            .left-section{
+                display: flex;
+                flex-direction: row;
+                margin-left: 80px;
+            }
+            .profile-picture-container{
+                margin-right: 8px;
+            }
+            .profile-picture{
+                width: 46px;
+                height: 46px;
+                object-fit: cover;
+                border-radius: 23px;
+            }
+            .user-name{
+                display: flex;
+                font-family: arial;
+                align-items: center;
+                font-weight: bold;
+            }
+            .right-section{
+                margin-right: 60px;
+            }
+            .add-friend-button{
+                padding-top : 6px ;
+                padding-bottom: 6px;
+                padding-left: 8px;
+                padding-right: 8px;
+                font-family: Arial;
+                border-radius: 4px;
+                border: none;
+                background-color: rgb(41, 116, 255);
+                color: white;
+                font-size: 13px;
+                font-weight: bold;
+            }
+            .message-button{
+                padding-top : 6px ;
+                padding-bottom: 6px;
+                padding-left: 8px;
+                padding-right: 8px;
+                font-family: Arial;
+                border-radius: 4px;
+                border: none;
+                background-color: rgb(210, 210, 210);
+                color: black;
+                font-size: 13px;
+                font-weight: bold;
+            }
+            .sidebar1{
+                
+                display: flex;
+                flex-direction: row;
+                position: fixed;
+                top: 70px;
+                bottom: 0;
+                left: 0;
+                
+            }
+            .sidebar1-a{
+                width: 60px;
+                background-color: rgb(45, 45, 45);
+                
+                padding-left: 8px;
+                
+            }
+            .pic-container-1{
+                margin-top: 14px;
+        
+            }
+            .pic1{
+
+                width: 50px;
+                height: 50px;
+                border-radius: 25px;
+                object-fit: cover;
+            }
+            .pic-container-2{
+
+                margin-top: 3px;
+            }
+            .pic2{
+                width: 50px;
+                height: 50px;
+                border-radius: 25px;
+                object-fit: cover;
+            }
+            .pic-container-3{
+                margin-top: 3px;
+            }
+            .pic3{
+                width: 50px;
+                height: 50px;
+                border-radius: 25px;
+                object-fit: cover;
+            }
+            .sidebar2{
+                background-color: rgb(59, 59, 59);
+                width: 150px;
+                position: fixed;
+                left: 68px;
+                top: 70px;
+                bottom: 0;
+
+            }
+            .info-label{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin-top: 8px;
+            }
+            .info{
+                margin-top: 12px;
+                color: white;
+                font-weight: bold;
+                font-family: Arial;
+                margin-left: 12px;
+                font-size: 13px;
+                
+            }
+            .plus{
+                font-size: 16px;
+                font-weight: bold;
+                font-family: Arial;
+                margin-top: 12px;
+                color: gray;
+                margin-right: 12px;
+            }
+            .text-1{
+                font-family: arial;
+                margin-left: 12px;
+                margin-top: 10px;
+                color: rgb(136, 136, 136);
+                font-size: 14px;
+
+            }
+            .text-2{
+                font-family: arial;
+                margin-left: 12px;
+                margin-top: 10px;
+                color: rgb(136, 136, 136);
+                font-size: 14px;
+            }
+            .text-3{
+                font-family: arial;
+                margin-left: 12px;
+                margin-top: 10px;
+                color: rgb(136, 136, 136);
+                font-size: 14px;
+            }
+            body{
+                padding-bottom: 3000px;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div class="header" >
+            <div class="left-section" >
+                <div class="profile-picture-container" >
+                    <img class="profile-picture" src="/thumbnail/cat.jpg" alt="">
+                </div>
+                <div class="user-name"  >  Oliver Cat</div>
+                    
+            </div>
+            <div class="right-section" >
+                <button class="add-friend-button" >Add Friend</button>
+                <button class="message-button" >Message</button>
+            </div>
+        </div>
+
+        <div class="sidebar1" >
+           <div class="sidebar1-a" >
+
+            <div class="pic-container-1" >
+                <img  class="pic1" src="/thumbnail/cat2.jpg" alt="">
+            </div>
+            <div class="pic-container-2" >
+                <img  class="pic2" src="/thumbnail/cat1.jpg" alt="">
+            </div>
+            <div class="pic-container-3" >
+                <img class="pic3"  src="/thumbnail/cat.jpg" alt="">
+            </div>
+           </div>
+            <div class="sidebar2" >
+
+                <div class="info-label" >
+                    <div class="info" >INFO</div>
+                    <div class="plus" >+</div>
+                </div>
+                <div class="text-1" ># new-videos</div>
+                <div class="text-2" ># updates</div>
+                <div class="text-3" ># faq</div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,144 @@
+.red-square {
+    width: 50px;
+    height: 50px;
+
+    background-color: red;
+    margin-bottom: 10px;
+}
+.circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: green;
+    margin-bottom: 5px;
+}
+.title{
+    font-family: arial;
+}
+.feedback{
+    border-width: 1px;
+    width: 300px;
+    border-style: solid;
+    border-color: rgb(149, 149, 149);
+    padding-left: 15px;
+    padding-bottom: 20px;
+    margin-bottom: 6px;
+   
+
+}
+.yt-card{
+    background-color: rgb(23, 23, 23);
+    width: 280px;
+    padding-left: 15px;
+    padding-top:2px;
+    padding-right: 15px;
+    padding-bottom: 2px;
+    margin-bottom: 30px;
+}
+.yt-title{
+    font-family: arial;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 0px;
+    padding-top:0px ;
+    margin-bottom: 2px;
+}
+.yt-desc{
+    font-family: arial;
+    color: rgb(131, 131, 131);
+    font-size: 12px;
+    font-weight: 600;
+    
+}
+
+.cat{
+    width: 130px ;
+    height: 222px;
+    margin-top: 0px ;
+    border-style: solid;
+    border: none;
+    border-width: 1px;
+    box-shadow: 2px 2px 4px rgba(81, 81, 81, 0.2 );
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 40px;
+    
+}
+
+.cat-pfp{
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    object-position: left;
+
+}
+.name{
+    font-family: arial;
+    font-weight: bold;
+    margin-top: 2px;
+    padding-left: 4px;
+    margin-bottom: 0px;
+}
+.mutual{
+    font-family: arial;
+    margin-top: 4px;
+    padding-left: 4px;
+    font-size: 14px;
+
+    color: rgb(126, 126, 126);
+    margin-bottom: 12px;
+
+}
+.addf-button{
+    background-color: rgb(26, 99, 255);
+    color: white;
+    font-family: arial;
+    margin-left: 4px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.google {
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+  
+}
+
+.searchbox {
+    width: 500px;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 30px;
+    border: none;
+    margin-bottom: 30px;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.2);
+   
+    
+
+}
+div{
+    text-align: center;
+}
+.g-button {
+    background-color: rgb(245, 245, 245);
+    border: none;
+    font-size: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+ 

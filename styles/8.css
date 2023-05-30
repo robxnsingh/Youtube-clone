@@ -1,0 +1,65 @@
+.logo {
+    width: 250px;
+    margin-top: 0px;
+    margin-bottom: 12px;
+    display: block;
+    margin-left: 125px;
+}
+
+.textbox {
+    width: 500px;
+    font-family: arial;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 30px;
+    padding-left: 12px;
+    border: none;
+    box-shadow: 3px 3px 10px rgba(85, 85, 85, 0.2);
+
+}
+
+.fname,
+.lname {
+    display: inline-block;
+    width: 150px;
+    padding-left: 12px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-radius: 8px;
+    border-width: 1px;
+    font-family: arial;
+    font-size: 14px;
+    border-color: rgb(155, 155, 155);
+    border-style: solid;
+}
+
+.email {
+    display: block;
+    width: 320px;
+    font-family: arial;
+    padding-left: 12px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-radius: 8px;
+    border-width: 1px;
+    font-family: arial;
+    font-size: 14px;
+    border-color: rgb(155, 155, 155);
+    margin-top: 8px;
+    border-style: solid;
+    margin-bottom: 8px;
+}
+
+.sign-button {
+    display: block;
+    color: white;
+    background-color: rgb(15, 105, 232);
+    border: none;
+    width: 335px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-radius: 8px;
+    font-weight: bold;
+}
